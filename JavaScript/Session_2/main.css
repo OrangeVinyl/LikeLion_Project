@@ -1,0 +1,87 @@
+/* .box {
+    width : 500px;
+    height : 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(133, 133, 133)
+}
+
+.purple {
+    background-color : rgb(231, 138, 231)
+}
+
+.yellow{
+    background-color: rgb(255, 255, 123);
+} */
+/* > Event 1장 */
+/* .bar{
+    width:  1000px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.newBar{
+    width:  1000px;
+    height: 50px;
+    background-color: rgb(226, 141, 43);
+    text-align: center;
+    padding-top: 20px;
+    display: none;
+}
+
+.show{
+    display : block;
+} */
+
+
+body{
+    font-family: "Do Hyeon", sans-serif
+}
+
+ul.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+ul/list::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tab-button{
+    display: block;
+    padding: 0px 20px 20px 50px;
+    float: left;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tab-content{
+    display: none;
+    padding: 10px;
+}
+
+.tab-content img{
+    width: 70px;
+}
+
+.here{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 2px solid rgb(249, 172, 56);
+    color: black;
+    margin-top: -2px;
+
+}
+
+.show{
+    display: block;
+}
